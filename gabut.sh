@@ -105,6 +105,7 @@ echo $w"Gabut ..."
 echo $p"Dont Forget To Subscribe Channel Mhank Tuttorr"
 echo $p"WAJIB"
 sh gabut.sh
+fi
 
 if [ $pil = 2 ]
 then
