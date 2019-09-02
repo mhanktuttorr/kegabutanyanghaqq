@@ -11,15 +11,16 @@ y='\033[33;1m' #kuning
 # [Coded By] Rizki18, Youtube : Mhank Tuttorr
 
 echo $p""
-figlet -f standard GABUTERs
+figlet -f standard MT-Channel
 echo
 echo $p"["$w"═════════════════════════════════════"$p"]"
-echo $p"["$w"+"$p"]"$w" Dibuat khusus untuk Hacker pro"
-echo $p"["$w"+"$p"]"$w" Dilarang menggunakan tools ini"
-echo $p"["$w"+"$p"]"$w" Kecuali lagi "$p"gabut ..."
+echo $p"["$w"=>$p"]"$w" Author: Mhank Tuttorr"
+echo $p"["$w"=>"$p"]"$w" Yotube: Mhank Tuttorr"$p"SUBSCRIBE YA.."
+echo $p"["$w"=>"$p"]"$w" Bismillah Terlebih Dahulu..."
 echo $p"["$w"═════════════════════════════════════"$p"]"
 echo
-echo $p"["$w"1"$p"]"$w" Lirik Lagu lihat kebunku"$p" v.1"
+echo $p"["$w"1"$p"]"$w" Hiburan Dulu.."
+echo $p"["$w"2"$p"]"$w" Sadap Wa"$p"v.1"
 
 echo $p"║"
 read -p"╚═[Pilih]═➢" pil
@@ -102,6 +103,19 @@ echo $p"Dasar"
 sleep 1
 echo $w"Gabut ..."
 echo $p"Dont Forget To Subscribe Channel Mhank Tuttorr"
-echo $w"WAJIB"
-sh l.sh
+echo $p"WAJIB"
+sh gabut.sh
+
+if [ $pil = 2 ]
+then
+clear
+echo $p""
+figlet -f slant "WAIT"
+sleep 1
+echo $p"["$w"=>"$p"]"$w" Bismillah Terlebih Dahulu..."
+sleep 1
+echo $p"["$w"=>"$p"]"$w" Sedang Menghubungkan Ke Server..."
+sleep 2
+figlet -f slant "ERROR"
+sh gabut.sh
 fi
